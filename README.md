@@ -26,3 +26,6 @@ docker run -dp 8080:8080 -v "$(pwd)/static:/wiki/static" -v wiki-db:/wiki/pages 
 Once the app is lunched go to your_ip_address:8080/edit/the_page_you_want_to_edit to edit your first wiki page ! 
 
 This app is very basic, you can basicly only view pages at /view/the_page_you_want _to_view and edit it at edit/the_page_you_want_to_edit.
+
+## Credit
+Go web server : [https://golang.org/doc/articles/wiki/](https://golang.org/doc/articles/wiki/)
