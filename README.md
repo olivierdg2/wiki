@@ -8,11 +8,13 @@ You simply need to clone this repo and have Docker installed.
 
 ## Usage
 
-Go to the app root then run the app with Docker.
+Go to the app root.
 
 ```bash
 cd wiki
 ```
+Then run the app with Docker.
+
 On Windows 
 ```bash
 docker run -dp 8080:8080 -v "%cd%/static:/wiki/static" -v wiki-db:/wiki/pages wiki
