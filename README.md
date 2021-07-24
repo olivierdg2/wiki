@@ -15,11 +15,11 @@ cd wiki
 ```
 Then run the app with Docker.
 
-On Windows 
+### On Windows 
 ```bash
 docker run -dp 8080:8080 -v "%cd%/static:/wiki/static" -v wiki-db:/wiki/pages wiki
 ```
-On Linux
+### On Linux
 ```bash
 docker run -dp 8080:8080 -v "$(pwd)/static:/wiki/static" -v wiki-db:/wiki/pages wiki
 ```
