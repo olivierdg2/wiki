@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  wiki:
+    build: .
+    ports: 
+      - 8080:8080
+    volumes:
+      - ./static:/wiki/static
+      - db:/wiki/pages
+volumes:
+  db:
